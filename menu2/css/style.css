@@ -1,0 +1,75 @@
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    background-color:rgb(233, 131, 131);
+    padding:30px;
+    font-size: 35px;
+    text-align: center;
+    color:white;
+
+}
+nav{
+    background-color:tomato;
+    text-align:center;    
+}
+
+
+/* ul이다 */
+nav .menu {
+    list-style-type: none;
+    display:inline-block;
+}
+/* 텍스트 데코레이션은 밑줄을 없앤다 */
+nav .menu a{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+    display:inline-block;
+    padding:16px;
+    min-width: 150.63px;
+        
+}
+
+
+nav .menu li{
+    display:inline-block; 
+    }
+nav .menu .dropdown-content {
+    position: absolute;
+    background-color:tomato;
+    display:none;            
+    }
+nav .menu .dropdown-content a 
+{
+    display:block;
+    text-align: left;    
+
+}
+nav .menu li:hover .dropdown-content
+{
+    display:block;
+            
+}
+
+nav .menu .dropdown .dropdown-content
+{
+    position: relative;
+    
+}
+
+@media(max-width:500px){
+    nav .menu li {
+            display:block;
+    }
+    .dropdown-content{
+        display:block;
+        width:100%;
+    }
+
+}
+

@@ -1,0 +1,31 @@
+.entire{
+    width: 100%;
+    text-align: center;
+}
+.font{
+    color: rgb(206, 115, 133);
+}
+.photo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 500px;
+    margin: 0 auto;    
+    justify-content: space-around;        
+}
+
+.London{
+    background-repeat: no-repeat;
+    background-image: url("../img/img3.jpg");
+    background-size:100% 100%;   
+}
+.newyork{
+    background-repeat: no-repeat;
+    background-image: url("../img/img2.jpg");
+    background-size:100% 100%;   
+}
+.sanfrancisco{
+    position: absolute;
+    background-image: url("../img/img1.jpg");
+    background-size:100% 100%;    
+    background-repeat: no-repeat;
+}
