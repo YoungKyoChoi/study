@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=d, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+            *{
+                padding:0px;
+                margin:0px;
+                box-sizing: border -box;
+            }
+
+            .container {
+                width: 800px;
+                margin:0 auto;
+                text-align: center;
+                border:1px solid tomato;
+                display:grid;
+                grid-template-columns: auto auto auto auto ;
+            }
+
+            .card-list{
+                   
+                    justify-content: space-around;
+            }
+
+            .card-list div {
+                height:200px;
+                padding:30px;
+                border:1px solid black;
+                width:300px;
+            }
+            .avangers{
+                background-size: 100%;
+                background-image: url("https://movie-phinf.pstatic.net/20180322_242/15216962441485x5Om_JPEG/movie_image.jpg");
+            }
+            .black{
+                background-size: 100%;
+                background-image: url("https://movie-phinf.pstatic.net/20180103_128/1514946690065uYxwW_JPEG/movie_image.jpg");
+            }
+            .text{
+                position: absolute;
+            }
+    </style>
+</head>
+
+<body>
+    
+    <div class="container">
+            <button onclick="addDiv()">추가</button>
+        <div class="card-list">
+            <div class="avangers"></div>
+            <div class="text">가</div>
+        </div>
+        <div class="card-list">
+            <div class="black">가</div>
+            <div class="text">가</div>
+        </div>
+    </div>                    
+
+    
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
