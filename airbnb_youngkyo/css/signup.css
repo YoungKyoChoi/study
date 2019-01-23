@@ -1,0 +1,106 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #fullsize{
+            margin: 100px auto;
+            border: 1px solid black;
+            height: 368px;
+            width: 568px;
+        }
+        #fullsize #FacebookLogin{
+            position: relative;
+        }
+        #fullsize #FacebookLogin input{
+            margin: 75px 30px 0 30px;
+            width: 504px;
+            height: 48px;
+            background-color: rgb(72, 96, 228);
+            color: white;
+            font-weight: bolder;
+            font-size: 16px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border: 1px solid rgb(72, 96, 228);
+        }
+        #fullsize #FacebookLogin div{
+            position: absolute;
+            left: 160px;
+            top: 85px;
+            width: 30px;
+            height: 30px;
+            background-image: url("../images/facebookicon.jpg");
+            background-size: 100% 100%;
+        }
+        #fullsize #GoogleLogin{
+            position: relative;
+        }
+        #fullsize #GoogleLogin input{
+            margin: 7px 30px 0 30px;
+            width: 504px;
+            height: 48px;
+            font-weight: bolder;
+            font-size: 16px;
+            background-color: white;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border: 2px solid rgba(88, 88, 88, 0.76);
+        }
+        #fullsize #GoogleLogin div{
+            position: absolute;
+            left: 177px;
+            top: 20px;
+            width: 25px;
+            height: 25px;
+            background-image: url("../images/Googleicon.png");
+            background-size: 100% 100%;
+        }
+        #fullsize #hrsize{
+            font-size: 13px;
+            font-weight: bolder;
+            margin: 15px 0;
+            color: rgba(88, 88, 88, 0.76);
+        }
+        #fullsize #hrsize hr{
+            width: 42%;
+            display:inline-block;
+            margin: 3px 15px;
+            border: 1px solid rgba(209, 208, 208, 0.425);
+        }
+        #fullsize #EmailSign input{
+            margin: 7px 30px 0 30px;
+            width: 504px;
+            height: 48px;
+            font-weight: bolder;
+            font-size: 16px;
+            color: white;
+            background-color: rgba(248, 101, 101, 0.938);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border: 2px solid rgba(248, 101, 101, 0.938);
+        }
+        #fullsize #SignIn {
+            margin: 0 32px;
+        }
+        #fullsize #SignIn hr{
+            margin: 20px 0 0 0;
+            border: 1px solid rgba(209, 208, 208, 0.425);
+        }
+        #fullsize #SignIn div{
+            font-size: 15px;
+            text-align: center;
+            margin: 14px 0;
+        }
+        #fullsize #SignIn div a:link,#fullsize #SignIn div a:visited{
+            text-decoration: none;
+            color: rgb(20, 136, 107);
+            font-weight: bolder;
+        }
